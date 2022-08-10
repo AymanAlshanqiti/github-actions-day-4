@@ -1,0 +1,13 @@
+name: PR Cmment
+
+on:
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          ehco "hello there"
+        
